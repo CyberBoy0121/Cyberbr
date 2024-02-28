@@ -42,7 +42,7 @@ echo " "
 
     read ch
    if [ $ch -eq 1 ];then
-        https://github.com/t0mxplo1t/IG-OSINT.git
+        git clone https://github.com/t0mxplo1t/IG-OSINT.git
         cd IG-OSINT
         bash ig.py
 
