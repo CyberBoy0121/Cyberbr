@@ -48,7 +48,6 @@ echo " "
 
         exit
     elif [ $ch -eq 2 ];then 
-         cd $HOME
          git clone https://github.com/tegal1337/CiLocks
          cd CiLocks
          chmod +x cilocks
