@@ -42,10 +42,9 @@ echo " "
 
     read ch
    if [ $ch -eq 1 ];then
-        cd $HOME
-        cd Cyberbr
-        cd Ig_information_gathering
-        bash start.sh
+        https://github.com/t0mxplo1t/IG-OSINT.git
+        cd IG-OSINT
+        bash ig.py
 
         exit
     elif [ $ch -eq 2 ];then 
@@ -57,7 +56,7 @@ echo " "
         
         exit
     elif [ $ch -eq 3 ];then
-        git clone git://github.com/htr-tech/zphisher.git
+        git clone https://github.com/htr-tech/zphisher.git
         cd zphisher
         bash zphisher.sh
 
@@ -70,8 +69,7 @@ echo " "
 
         exit
     elif [ $ch -eq 5 ];then
-        cd $HOME
-        cd Cyberbr
+        git clone https://github.com/noob-hackers/infect.git
         cd infect
         echo -e "\e[1;34m  This Virus Formates (Deletes) the victims Full Internal Storage So think and Use."
         bash infect.sh
@@ -82,7 +80,7 @@ echo " "
         echo -e "\e[1;34m Downloading Latest Files..."
         cd $HOME
         rm -rf Cyberbr
-        git clone https://github.com/xploitstech/Xteam
+        git clone https://github.com/CyberBoy0121/Cyberbr
         cd Cyberbr
         bash Cyberbr.sh   
         
