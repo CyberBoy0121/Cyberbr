@@ -53,7 +53,7 @@ echo " "
          git clone https://github.com/tegal1337/CiLocks
          cd CiLocks
          chmod +x cilocks
-         sudo ./cilocks
+         bash ./cilocks
         
         exit
     elif [ $ch -eq 3 ];then
@@ -65,7 +65,7 @@ echo " "
     elif [ $ch -eq 4 ];then
         git clone --depth 1 https://github.com/v1s1t0r1sh3r3/airgeddon.git
         cd airgeddon
-        sudo bash airgeddon.sh
+        bash airgeddon.sh
 
 
         exit
